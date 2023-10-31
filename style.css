@@ -29,7 +29,6 @@ div {
 }
 
 
-
 nav {
     height: 20%;
 }
@@ -65,24 +64,26 @@ ul {
     align-items: center;
     flex-direction: column;
 }
-.patinha{
-    width: 10%;
-    height: 15%;
-    position: relative;
-    bottom: 8rem;
 
-    
-}
+
 h1 {
     width: 30%;
     text-align: center;
     color: white;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 4rem;
     position: relative;
-    bottom: 12rem;
+    bottom: 14rem;
 }
 
+.patinha {
+    width: 10%;
+    height: 15%;
+    position: relative;
+    bottom: 10rem;
+
+
+}
 
 
 .banhoetosa {
@@ -93,27 +94,31 @@ h1 {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 6rem;
 }
 
 .sobanhoetosa {
     font-weight: 900;
     color: black;
     font-size: 45px;
-    margin-left: 6rem;
-    font-size: 40px;
+    margin: 3rem;
 
 }
 
 p {
-    font-size:30px;
+    font-size: 2rem;
     align-items: center;
     height: 15vh;
     width: 20%;
     margin-left: 6rem;
-    
-}
+    margin: 2rem 0 2rem 0;
 
+
+}
 
 
 button {
@@ -123,12 +128,13 @@ button {
     background-color: black;
     color: white;
     font-size: 2rem;
-    margin-left: 5rem;
-    margin-top:12rem;
-    
+    margin-left: 4rem;
+    margin-top: 10rem;
+
 
 
 }
+
 
 .mordomiasaudavel {
     background-image: url(./imgprojeto/belindapretinha.png);
@@ -139,17 +145,25 @@ button {
     background-position: center;
     color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
-    padding-bottom: 20rem;
-    
+    padding-bottom: 30rem;
+    align-items: flex-end;
+    padding: 20rem;
+    text-align: left;
 }
+
 
 
 
 .botão {
     background-color: white;
     color: black;
+    height: 10vh;
+    width: 20%;
+    margin-right: 3rem;
+    border: none;
+
 }
 
 h2 {
@@ -161,13 +175,13 @@ h2 {
 }
 
 
-
 .investidores {
     background-color: #FFFFFF;
     width: 100%;
     height: 15vh;
     display: flex;
     justify-content: space-around;
+    margin-top: 3rem;
 }
 
 h3 {
@@ -175,13 +189,45 @@ h3 {
     font-size: 5rem;
     align-items: center;
     color: rosybrown;
-    font-style: Serif,serif;
+    font-style: Serif, serif;
 
 }
 
 img {
     width: 20%;
     height: 10vh;
+}
+
+footer {
+    background-color: #EB4A7B;
+    height: 45vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding-top: 2rem;
+    
+
+}
+
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: end;
+
+
+}
+
+.finalizando {
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+
 }
 
 
@@ -199,19 +245,24 @@ img {
     .redesdois {
         display: none;
     }
-    .redesdois{
+
+    .redesdois {
         width: 2rem;
     }
-    .logo{
+
+    .logo {
         width: 2rem;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
-    h2{
+
+    h2 {
         font-size: 2rem;
     }
-    p{
+
+    p {
         font-size: 2rem;
         height: 15%;
     }
